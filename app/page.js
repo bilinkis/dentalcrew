@@ -222,7 +222,7 @@ export default function Page() {
         <div className="modal-body">
           <div className="modal-img">
             <Image
-              src="/img/services/phillips.jpg"
+              src="/img/services/philips.jpg"
               alt="Blanqueamiento Philips Zoom"
               fill
               sizes="(max-width: 768px) 100vw, 800px"
