@@ -7354,6 +7354,16 @@ footer .widget .contact-info li .fa {
     border-radius: 6px;
 }
 
+.modal-img {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    /* optional */
+    height: auto;
+    aspect-ratio: auto;
+    /* keep proportions similar to 800x500 */
+}
+
 .service-modal .modal-text {
     flex: 2 1 400px;
 }

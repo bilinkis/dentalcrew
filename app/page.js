@@ -109,8 +109,15 @@ export default function Page() {
       <Modal open={open === "cerec"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/cerech.jpg" alt="CEREC" width={800} height={500} />
+            <Image
+              src="/img/services/cerech.jpg"
+              alt="CEREC"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
+
           <div className="modal-text">
             <h2>CEREC – Coronas en el día</h2>
             <p>Con la tecnología CEREC se pueden reconstruir en porcelana las piezas dentarias dañadas. Puentes, coronas, carillas e incrustaciones se realizan en un mismo día, priorizando función y estética.</p>
@@ -126,7 +133,13 @@ export default function Page() {
       <Modal open={open === "vita"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/vitah.jpg" alt="Vita Easy Shade" width={800} height={500} />
+            <Image
+              src="/img/services/vitah.jpg"
+              alt="VITA Easy Shade"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
           <div className="modal-text">
             <h2>Vita Easy Shade</h2>
@@ -142,7 +155,13 @@ export default function Page() {
       <Modal open={open === "cirugias"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/guiadah.jpg" alt="Cirugías Guiadas" width={800} height={500} />
+            <Image
+              src="/img/services/guiadah.jpg"
+              alt="Cirugías Guiadas"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
           <div className="modal-text">
             <h2>Cirugías Guiadas</h2>
@@ -158,7 +177,13 @@ export default function Page() {
       <Modal open={open === "coronas"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/coronas.jpg" alt="Coronas Dentales" width={800} height={500} />
+            <Image
+              src="/img/services/coronas.jpg"
+              alt="Coronas Dentales"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
           <div className="modal-text">
             <h2>Coronas Dentales</h2>
@@ -174,7 +199,13 @@ export default function Page() {
       <Modal open={open === "implantes"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/imp.jpg" alt="Implantes Straumann" width={800} height={500} />
+            <Image
+              src="/img/services/imp.jpg"
+              alt="Implantes Straumann"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
           <div className="modal-text">
             <h2>Implantes Straumann</h2>
@@ -190,7 +221,13 @@ export default function Page() {
       <Modal open={open === "blanqueamiento"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/philips.jpg" alt="Blanqueamiento Philips Zoom" width={800} height={500} />
+            <Image
+              src="/img/services/phillips.jpg"
+              alt="Blanqueamiento Philips Zoom"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
           <div className="modal-text">
             <h2>Blanqueamiento Philips Zoom</h2>
@@ -206,7 +243,13 @@ export default function Page() {
       <Modal open={open === "invisalign"} onClose={() => setOpen(null)}>
         <div className="modal-body">
           <div className="modal-img">
-            <Image src="/img/services/invisalign.jpg" alt="Ortodoncia Transparente" width={800} height={500} />
+            <Image
+              src="/img/services/invisalign.jpg"
+              alt="Invisalign Ortodoncia Transparente"
+              fill
+              sizes="(max-width: 768px) 100vw, 800px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
           <div className="modal-text">
             <h2>Ortodoncia Transparente</h2>
